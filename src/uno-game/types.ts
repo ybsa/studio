@@ -24,3 +24,4 @@ export interface GameState {
   currentColor: Color; // The color that must be matched, changes with Wild cards
   actionRequired?: Action; // To handle specific states like needing to draw or choose a color
 }
+

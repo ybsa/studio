@@ -1,4 +1,3 @@
-// src/components/uno/GameBoard.tsx
 'use client'; // Required for useState, useEffect, etc.
 
 import React, { useState, useEffect, useCallback } from 'react';
@@ -408,3 +407,4 @@ const GameBoard: React.FC = () => {
 };
 
 export default GameBoard;
+

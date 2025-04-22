@@ -8,6 +8,10 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  webpack: (config, {defaultLoaders}) => {
+    config.cache = false;
+    return config;
+  },
 };
 
 export default nextConfig;

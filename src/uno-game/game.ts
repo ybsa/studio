@@ -1,4 +1,4 @@
-// src/uno-game/game.ts
+/ src/uno-game/game.ts
 import { Card, Player, GameState, Color, CardType } from './types';
 import { createDeck, shuffleDeck, dealInitialHands, drawCards } from './deck';
 
